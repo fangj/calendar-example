@@ -6,11 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint src ",
-    "watch": "babel src -wd lib -s inline -D"
+    "watch": "babel src -wd lib -s inline -D",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "moment": "^2.15.0",
+    "pubsub-js": "^1.5.3",
+    "react-calendar": "^1.1.0"
+  },
   "devDependencies": {
     "babel-core": "^6.14.0",
     "babel-loader": "^6.2.5",
@@ -23,6 +29,7 @@
     "react": "^15.3.1",
     "react-dom": "^15.3.1",
     "style-loader": "^0.13.1",
-    "webpack": "^1.13.2"
+    "webpack": "^1.13.2",
+    "@kadira/storybook": "^2.5.2"
   }
 }
