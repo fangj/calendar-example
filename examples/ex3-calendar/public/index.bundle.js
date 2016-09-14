@@ -128,7 +128,7 @@ webpackJsonp([0],[
 	}(_react2.default.Component);
 
 	Cal.propTypes = {
-	  name: _react2.default.PropTypes.string
+	  dates: _react2.default.PropTypes.array.isRequired
 	};
 	exports.default = Cal;
 

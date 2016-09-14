@@ -13,7 +13,7 @@ function onDate(date){
 
 export default class Cal extends React.Component {
   static propTypes = {
-    name: React.PropTypes.string,
+    dates: React.PropTypes.array.isRequired,
   };
 
   constructor(props) {
